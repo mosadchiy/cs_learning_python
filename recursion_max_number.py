@@ -3,10 +3,7 @@ def max_number(arr):
         return 0
     cur_max = arr[0]
     new_max = max_number(arr[1:])
-    if cur_max >= new_max:
-        return cur_max
-    else:
-        return new_max
+    return cur_max if cur_max >= new_max else new_max
 
 
 print(max_number([2, 4, 6, 5]))

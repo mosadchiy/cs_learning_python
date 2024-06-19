@@ -1,5 +1,5 @@
 def num_of_items(arr):
-    if len(arr) == 0:
+    if not arr:
         return 0
     return 1 + num_of_items(arr[1:])
 
