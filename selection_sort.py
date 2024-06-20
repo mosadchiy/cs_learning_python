@@ -16,4 +16,6 @@ def selection_sort(arr):
     return new_arr
 
 
-print(selection_sort([5, 3, 6, 2, 10]))
+my_list = [5, 3, 6, 2, 10]
+print("input array: ", my_list)
+print("sorted array: ", selection_sort(my_list))

@@ -15,7 +15,7 @@ def binary_search(arr, item):
 
 
 my_list = [1, 3, 5, 7, 9]
-print("input array: ", my_list)
 item1 = 3
+print("input array: ", my_list)
 print("item to find: ", item1)
 print(binary_search(my_list, item1))

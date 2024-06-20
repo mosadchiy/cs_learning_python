@@ -8,4 +8,6 @@ def quick_sort(arr):
         return quick_sort(less) + [pivot] + quick_sort(greater)
 
 
-print(quick_sort([5, 3, 6, 2, 10]))
+my_list = [10, 5, 2, 3]
+print("input array: ", my_list)
+print("sorted array: ", quick_sort([10, 5, 2, 3]))
